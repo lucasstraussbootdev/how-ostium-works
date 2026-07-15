@@ -8,10 +8,14 @@ import Leverage from "../components/Leverage";
 import Liquidity from "../components/Liquidity";
 import OraclePricing from "../components/OraclePricing";
 import Settlement from "../components/Settlement";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
     <main className="bg-black text-white">
+      <Navbar />
+
+    
       <Hero />
       <Vision />
       <ArchitectureDiagram />

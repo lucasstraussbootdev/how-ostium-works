@@ -1,3 +1,5 @@
+import FadeIn from "./FadeIn";
+
 export default function TradeLifecycle() {
   const steps = [
     "Deposit USDC",
@@ -10,6 +12,7 @@ export default function TradeLifecycle() {
   ];
 
   return (
+    <FadeIn>
     <section className="mx-auto max-w-6xl px-6 py-32">
       <p className="text-sm uppercase tracking-[0.3em] text-zinc-500">
         Trade Lifecycle
@@ -38,5 +41,6 @@ export default function TradeLifecycle() {
         ))}
       </div>
     </section>
+    </FadeIn>
   );
 }

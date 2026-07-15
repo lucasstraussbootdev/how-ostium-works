@@ -1,6 +1,11 @@
+import FadeIn from "./FadeIn";
+
 export default function ArchitectureDiagram() {
   return (
-    <section className="mx-auto max-w-5xl px-6 py-32">
+  <FadeIn>
+    <section
+      id="architecture"
+      className="mx-auto max-w-5xl scroll-mt-24 px-6 py-20">
       <h2 className="text-4xl font-bold">
         The Ostium Architecture
       </h2>
@@ -43,7 +48,8 @@ export default function ArchitectureDiagram() {
           </p>
         </div>
 
-      </div>
+     </div>
     </section>
+   </FadeIn>
   );
 }

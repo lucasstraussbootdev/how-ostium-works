@@ -1,3 +1,5 @@
+import FadeIn from "./FadeIn";
+
 export default function Benefits() {
   const benefits = [
     {
@@ -28,6 +30,7 @@ export default function Benefits() {
   ];
 
   return (
+    <FadeIn>
     <section className="mx-auto max-w-6xl px-6 py-32">
       <p className="text-sm uppercase tracking-[0.3em] text-zinc-500">
         Why Trade on Ostium
@@ -54,5 +57,6 @@ export default function Benefits() {
         ))}
       </div>
     </section>
+    </FadeIn>
   );
 }

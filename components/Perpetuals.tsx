@@ -1,6 +1,11 @@
+import FadeIn from "./FadeIn";
+
 export default function Perpetuals() {
   return (
-    <section className="mx-auto max-w-6xl px-6 py-32">
+    <FadeIn>
+    <section
+      id="perpetuals"
+      className="mx-auto max-w-6xl scroll-mt-24 px-6 py-20">
       <p className="text-sm uppercase tracking-[0.3em] text-zinc-500">
         Perpetual Instruments
       </p>
@@ -41,5 +46,6 @@ export default function Perpetuals() {
         </div>
       </div>
     </section>
+    </FadeIn>
   );
 }

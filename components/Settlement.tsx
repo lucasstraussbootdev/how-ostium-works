@@ -1,6 +1,11 @@
+import FadeIn from "./FadeIn";
+
 export default function Settlement() {
   return (
-    <section className="mx-auto max-w-6xl px-6 py-20">
+    <FadeIn>
+    <section
+      id="settlement"
+      className="mx-auto max-w-6xl scroll-mt-24 px-6 py-20">
       <p className="text-sm uppercase tracking-[0.3em] text-zinc-500">
         Settlement
       </p>
@@ -47,5 +52,6 @@ export default function Settlement() {
 
       </div>
     </section>
+    </FadeIn>
   );
 }
