@@ -9,6 +9,7 @@ import Liquidity from "../components/Liquidity";
 import OraclePricing from "../components/OraclePricing";
 import Settlement from "../components/Settlement";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Liquidity />
       <OraclePricing />
       <Settlement />
+      <Footer />
     </main>
   );
 }
