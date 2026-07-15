@@ -5,6 +5,9 @@ import Benefits from "../components/Benefits";
 import TradeLifecycle from "../components/TradeLifecycle";
 import Perpetuals from "../components/Perpetuals";
 import Leverage from "../components/Leverage";
+import Liquidity from "../components/Liquidity";
+import OraclePricing from "../components/OraclePricing";
+import Settlement from "../components/Settlement";
 
 export default function Home() {
   return (
@@ -16,6 +19,9 @@ export default function Home() {
       <TradeLifecycle />
       <Perpetuals />
       <Leverage />
+      <Liquidity />
+      <OraclePricing />
+      <Settlement />
     </main>
   );
 }

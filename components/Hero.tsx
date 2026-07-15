@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="flex min-h-screen flex-col justify-center px-6">
+    <section className="flex min-h-[80vh] flex-col justify-center px-6">
       <p className="text-sm uppercase tracking-[0.3em] text-zinc-400">
         Ostium Education
       </p>
